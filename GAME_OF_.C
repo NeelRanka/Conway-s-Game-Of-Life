@@ -1,3 +1,6 @@
+//White tile represents LIVE cell
+//Black Tile represents Dead cell
+
 #include<stdio.h>
 #include<graphics.h>
 #include<stdlib.h>
@@ -19,6 +22,7 @@ int main()
 	ask=getche();
 	initgraph(&gd,&gm,"C:/TURBOC3/BGI");
 
+	//initial state start
 	//make_box(245,325,WHITE);
 	//make_box(235,325,WHITE);
 	make_box(255,325,WHITE);
@@ -52,6 +56,7 @@ int main()
 	make_box(335,245,WHITE);
 	make_box(325,255,WHITE);
 	make_box(325,235,WHITE);
+	//End of initial state
 
 	ask=getche();
 	while(ask!='e')
