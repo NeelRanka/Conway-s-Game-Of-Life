@@ -13,3 +13,5 @@ To proceed with the simulation, check the initial state => press any key to go t
 Press 'e' to exit.
 
 For further details on the concept : https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
+**Needs graphics.h to run simlation in C compiler**
