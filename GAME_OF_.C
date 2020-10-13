@@ -9,8 +9,8 @@ int main()
 {
 	int gd,gm;
 	int remove[6000],topr=0,add[6000],topa=0;
-	int i,j,total,k;
-	char ask=0;
+	int i,j,total;
+	char ask;
 	gd=DETECT;
 	printf("Welcome to Conway's GAME of LIFE : press any key to continue(starts with an initial state and shows evolution of the life form) ");
 	printf("\n1.Any live cell with fewer than two live neighbours dies, as if by underpopulation");
